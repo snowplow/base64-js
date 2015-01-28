@@ -77,6 +77,12 @@
 		return (r ? enc.slice(0, r - 3) : enc) + '==='.slice(r || 3);
 	}
 
-	object.base64encode = base64_encode;
+	object.encodeBase64 = base64_encode;
+	object.encodeBase64UrlSafe = function (data) {
+		if (!data) {
+			return data;
+		}
+		return base64_encode(data).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+	}
 
 }());
