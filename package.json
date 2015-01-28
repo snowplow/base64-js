@@ -1,0 +1,20 @@
+{
+  "name": "snowplow-base64",
+  "version": "0.1.0",
+  "description": "Base64-encode arbitrary strings",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snowplow/base64-js.git"
+  },
+  "keywords": [
+    "base64",
+    "snowplow",
+    "encode"
+  ],
+  "author": "Fred Blundun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowplow/base64-js/issues"
+  },
+  "homepage": "https://github.com/snowplow/base64-js"
+}
