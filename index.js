@@ -83,6 +83,6 @@
 			return data;
 		}
 		return base64_encode(data).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-	}
+	};
 
 }());
