@@ -1,5 +1,7 @@
 # base64-js
 
+[ ![Build Status] [travis-image] ] [travis]
+
 ## Overview
 
 Node.js module to handle base64 encoding arbitrary strings. For use in the [Snowplow JavaScript Tracker][sjt] core.
@@ -27,3 +29,5 @@ limitations under the License.
 
 [sjt]: https://github.com/snowplow/snowplow-javascript-tracker
 [license]: http://www.apache.org/licenses/LICENSE-2.0
+[travis-image]: https://travis-ci.org/snowplow/base64-js.png?branch=master
+[travis]: http://travis-ci.org/snowplow/base64-js
